@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function App() {
   
-    const [ativo, setAtivo] = useState('');
+    const [ativo, setAtivo] = useState('Home');
   
     const atualizarAtivo = (novoValor) => {
       setAtivo(novoValor);
