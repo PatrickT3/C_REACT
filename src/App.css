@@ -1,29 +1,47 @@
 .naveprinc{
     display: flex;
     justify-content: space-between;
-    padding: 5px 50px;
+    padding: 10px 50px;
     align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 .img{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     transition: 0.5s;
     cursor: pointer;
 }
-.img:hover{
-    transform: scale(1.1); 
-}
+.img{
+    animation: crescerDiminuir 1s alternate infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes crescerDiminuir {
+    0% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1.4);
+    }
+  }
+  
 .nave{
     list-style: none;
     display: flex;   
 }
-.nave li{
-    margin: 5px 20px;
-}
 .nave a{
     text-decoration: none;
-    color: black; 
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.2s;
+    padding: 20px;
 }
 .nave a:hover{
-    color: aquamarine;
+    color: #599FFF;
+}
+.links{
+    color: black;
+}
+.linksAtivo{
+    color: #0265f8;
 }
