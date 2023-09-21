@@ -1,0 +1,39 @@
+.princ {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 750px;
+}
+  
+.ld,
+.le {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Adicione esta linha para ocultar conteúdo que estourar */
+}
+.le h1{
+    margin: 150px 40px 40px 0;
+    font-size: 50px;
+    line-height: 55px;
+}
+.Pat{
+    color:chartreuse;
+}
+.le p{
+    margin: 0 20px 50px 30px;
+    font-size: 20px;
+}
+
+.ld {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.imgT{
+    width: 90%;
+    margin: 0px auto;
+}
+  

@@ -1,6 +1,6 @@
 import './App.css'
 import { Link } from "react-router-dom";
-import logo from './assets/react.svg';
+import logo from './img/react.svg';
 import { useState } from 'react';
 
 function App() {

@@ -1,6 +1,22 @@
+import './Home.css'
+import reactt from '../../img/vite.svg'
+import LinkButton from '../../components/Buttn/LinkButton'
+
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <div className='princ'>
+      <div className='le'>
+        <h1>Hi, I am <span className='Pat'>Patrick Teixeira</span> <br/> a Freelancer</h1>
+        <p className='prg'>
+          Entusiasta de Front-End com paixão por transformar designs criativos <br/>
+          em experiências interativas e envolventes na web. 
+        </p>
+        <LinkButton to='/AboutMe' text='About Me'></LinkButton>
+      </div>
+      <div className='ld'>
+        <img src={reactt} alt="react" className='imgT' />
+      </div>
+    </div>
   )
 }
 

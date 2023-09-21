@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
+    padding-right: 30px;
+    margin-bottom: 5px;
     align-items: center;
     box-shadow: 0px 4px 4px #0265f8;
 }
 .img{
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -37,7 +39,7 @@
     padding: 20px;
 }
 .nave a:hover{
-    color: #599FFF;
+    color: #599eff;
 }
 .links{
     color: black;
