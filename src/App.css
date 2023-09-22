@@ -1,7 +1,7 @@
 .naveprinc{
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 15px 50px;
     padding-right: 30px;
     margin-bottom: 5px;
     align-items: center;
@@ -34,7 +34,7 @@
 .nave a{
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.2s;
     padding: 20px;
 }

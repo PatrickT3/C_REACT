@@ -8,7 +8,7 @@ const Home = () => {
       <div className='le'>
         <h1>Hi, I am <span className='Pat'>Patrick Teixeira</span> <br/> a Freelancer</h1>
         <p className='prg'>
-          Entusiasta de Front-End com paixão por transformar designs criativos <br/>
+          Eu um entusiasta de Front-End com paixão por transformar designs criativos
           em experiências interativas e envolventes na web. 
         </p>
         <LinkButton to='/AboutMe' text='About Me'></LinkButton>
