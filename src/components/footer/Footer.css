@@ -1,0 +1,24 @@
+.Footer{
+    padding: 15px;
+    text-align: center;
+}
+.Footer svg{
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #ccc;
+}
+.Footer svg:hover{
+    transform: scale(1.4);
+}
+.inst:hover{
+    color: #E1306C;
+}
+.linkd:hover{
+    color: #0077B5;
+}
+.git:hover{
+    color: #333;
+}

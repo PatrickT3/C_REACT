@@ -8,6 +8,7 @@ import Contact from './pages/Contact/Contact';
 import AboutMe from './pages/AboutMe/AboutMe.jsx';
 import Skills from './pages/Skills/Skills.jsx';
 import PExperience from './pages/PExperience/PEx.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="PExperience" element={<PExperience />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>
 );
