@@ -7,3 +7,12 @@
     height: 140px;
     width: 150px;
 }
+.Card svg{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.Card h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+

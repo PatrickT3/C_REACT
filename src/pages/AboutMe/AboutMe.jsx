@@ -13,9 +13,9 @@ const AboutMe = () => {
         </div>
         <div className='ldd'>
           <div className='lddCard'>
-            <Card texth2="Experience" textp="+1 years"/>
-            <Card texth2="Experience" textp="+1 years"/>
-            <Card texth2="Experience" textp="+1 years"/>
+            <Card texth2="Experience" textp="+1 years" num={2}/>
+            <Card texth2="Completed" textp="+10 Projects" num={3}/>
+            <Card texth2="Skills" textp="+0 Skill" num={1}/>
           </div>
           <p className='area-de-texto'>
             Se você é criativo, tem um olho afiado para o design e é 
