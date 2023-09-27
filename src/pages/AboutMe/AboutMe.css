@@ -1,0 +1,60 @@
+.aprinc {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 700px;
+    flex-direction: column;
+    text-align: center;
+}
+.aprinc h1{
+    font-size: 40px;
+    margin: 10px 0 0;
+    color: #0265f8;
+}
+.aprinc p{
+    margin: 0;
+    color: #888
+}
+.body{
+    display: flex;
+    height: 600px;
+}
+.lee img{
+    border-radius: 100px;
+    padding: 40px;
+    height: 530px;
+}
+.ldd{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.lddCard{
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+}
+.area-de-texto {
+    font-size: 24px;
+    width: 550px;
+    padding: 10px;
+    text-align: justify;
+}
+.btn-link{
+    background-color: #0265f8;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 40px;
+    padding: 0.8em 1.5em;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #0265f8;
+    cursor: pointer;
+}
+.btn-link:hover{
+    background-color: #fff;
+    color: #0265f8;
+}

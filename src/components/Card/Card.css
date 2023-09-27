@@ -1,0 +1,9 @@
+.Card{
+    border: 1px solid #0265f8;
+    background-color: whitesmoke;
+    color: #0265f8;
+    border-radius: 10px;
+    margin: 10px;
+    height: 140px;
+    width: 150px;
+}
