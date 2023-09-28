@@ -1,6 +1,7 @@
 import './AboutMe.css'
 import astro from '../../img/astro.png'
 import Card from '../../components/Card/Card'
+import {RiDownloadCloudFill} from 'react-icons/ri';
 
 const AboutMe = () => {
   return (
@@ -22,7 +23,10 @@ const AboutMe = () => {
             apaixonado por criar experiências de usuário excepcionais,
             este é o cargo para você. O desenvolvedor front-end desempenhará 
           </p>
-          <button className='btn-link'>Download CV</button>
+          <button className='btn-link'>
+            <span> Download CV </span>
+            <RiDownloadCloudFill></RiDownloadCloudFill>
+          </button>
         </div>
       </div>
     </div>
