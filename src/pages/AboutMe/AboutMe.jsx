@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className="aprinc">
       <h1>About Me</h1>
       <p>My introduction</p>
-      <div className='body'>
+      <div className='bbody'>
         <div className='lee'>
           <img src={astro} alt="Astronautilos" />
         </div>
