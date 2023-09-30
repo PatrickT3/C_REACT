@@ -27,26 +27,20 @@
 }
 .bor{
     margin: 0 auto;
+    margin-top: 10px;
     width: 300px;
     padding-bottom: 20px;
     border: 1px solid green;
     border-radius: 30px;
 }
-.bor2{
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 400px;
-    padding-bottom: 20px;
-    border: 1px solid blue;
-    border-radius: 30px;
-}
 .bor3{
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 10px;
     width: 400px;
     padding-bottom: 20px;
     border: 1px solid rgb(255, 162, 0);
     border-radius: 30px;
+    font-size: 18px;
 }
 #ufopa{
     color: green;
@@ -57,11 +51,8 @@
     width: 50px;
     height: 30px;
 }
-#PO{
-    color: blue;
-    margin-bottom: 0;
-}
 #PO2{
+    font-size: 22px;
     color: rgb(255, 162, 0);
     margin-bottom: 0;
 }
