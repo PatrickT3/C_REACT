@@ -1,5 +1,23 @@
-.azul{
-    background-color: aqua;
+.divp{
     width: 300px;
-    height: 300px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.divp h1{
+    font-size: 40px;
+    margin: 10px 0 0;
+    color: #0265f8;
+}
+.divp p{
+    margin: 0;
+    color: #888
+}
+.divp svg{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.divp svg:hover{
+    cursor: pointer;
 }

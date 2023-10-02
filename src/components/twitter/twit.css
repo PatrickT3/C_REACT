@@ -1,0 +1,36 @@
+.twit{
+    background-color: black;
+    color: aliceblue;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px; 
+}
+.pes{
+    line-height: 1;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pes img{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.m{
+    font-weight: bold;
+    font-size: 21px;
+    padding-right:10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.fim{
+    margin-top: 10px;
+}
+#biarrow{
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: -5px;
+}
