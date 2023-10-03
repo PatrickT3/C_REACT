@@ -4,11 +4,12 @@ import Twitt from "../../components/twitter/twitt";
 import {BsFillArrowLeftCircleFill} from 'react-icons/bs';
 import {BsFillArrowRightCircleFill} from 'react-icons/bs';
 
+
 const Contact = () => {
   const objtwt = [
-    { name: "Neymar", aroba: "marNeyJr", corp: "O @Patrick me ensinou a joga futebol." },
-    { name: "Chicomoedas", aroba: "lastRomantic", corp: " Esse cara @Patrick me ensinou a ser um homem fiel e comprometido." },
-    { name: "ElonMusk", aroba: "IronMan", corp: "Tudo que eu sei foi este homem exemplar que me ensinou @Patrick." }
+    { id: 1, name: "Neymar", aroba: "marNeyJr", corp: "O @Patrick me ensinou a joga futebol." },
+    { id: 2, name: "Chicomoedas", aroba: "lastRomantic", corp: " Esse cara @Patrick me ensinou a ser um homem fiel e comprometido." },
+    { id: 3, name: "ElonMusk", aroba: "IronMan", corp: "Tudo que eu sei foi este homem exemplar que me ensinou @Patrick." }
   ];
 
   const [indiceAtual, setIndiceAtual] = useState(0);
@@ -26,6 +27,7 @@ const Contact = () => {
       <h1 className="azul">Testimonial</h1>
       <p>My client saying</p>
       <Twitt
+        num={objtwt[indiceAtual].id}
         name={objtwt[indiceAtual].name}
         aroba={objtwt[indiceAtual].aroba}
         corp={objtwt[indiceAtual].corp}

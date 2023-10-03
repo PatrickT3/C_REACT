@@ -1,0 +1,21 @@
+.btn-link{
+    background-color: #0265f8;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 40px;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #0265f8;
+    cursor: pointer;
+}
+.btn-link:hover{
+    background-color: #fff;
+    color: #0265f8;
+}
+.btn-link span{
+    font-size: 24px;
+}
+.btn-link svg{
+    margin-left: 5px;
+}
