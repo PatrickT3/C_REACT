@@ -19,9 +19,9 @@ const AboutMe = () => {
             <Card texth2="Skills" textp="+6 Skill" num={1}/>
           </div>
           <p className='area-de-texto'>
-            Se você é criativo, tem um olho afiado para o design e é 
-            apaixonado por criar experiências de usuário excepcionais,
-            este é o cargo para você. O desenvolvedor front-end desempenhará 
+          Sou o Patrick Teixeira, tenho 23 anos e meu objetivo é trabalhar com 
+          desenvolvimento de software. Atualmente, estou cursando Sistemas de Informação 
+          na UFOPA e estou focado em me tornar um bom programador.
           </p>
           <Buttonn></Buttonn>
         </div>
