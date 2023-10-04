@@ -5,7 +5,10 @@ import PropTypes from 'prop-types';
 const LinkButton = ({ to, text }) => {
   return (
     <div>
-      <Link to={to} className='btn-link'>{text}</Link>
+      <Link to={to} className='btn-link' 
+        onClick={()=> localStorage.setItem("palavraChave", "About Me")}>
+        {text}
+      </Link>
     </div>
   );
 };
